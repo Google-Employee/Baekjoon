@@ -18,7 +18,7 @@ void swipe(char board[][21], int count, int dir) {
 	list<int> lt;
 
 
-	// 위로 스와이프
+	// 왼쪽으로 스와이프
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n; j++) {
 			if (board[i][j] != '0') {
